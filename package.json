@@ -4,6 +4,7 @@
   "description": "manage inventory and sales for a small shop",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/chinm333/shop-api#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.5.2",
     "nodemon": "^3.1.4"
