@@ -1,0 +1,24 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "description": "manage inventory and sales for a small shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinm333/shop-api.git"
+  },
+  "author": "Chinmoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinm333/shop-api/issues"
+  },
+  "homepage": "https://github.com/chinm333/shop-api#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  }
+}
