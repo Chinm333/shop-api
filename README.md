@@ -15,4 +15,4 @@ This is a backend system to manage inventory and sales for a small shop. It is b
 3. Install the dependencies:
    ```bash
    npm install
-   nodemon index.js
+   npm start
